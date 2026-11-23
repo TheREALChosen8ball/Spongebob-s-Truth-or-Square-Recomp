@@ -7,9 +7,13 @@ This package contains the ReXGlue project and build tools. It does not contain t
 - Windows 10 or 11, 64-bit
 - Visual Studio 2022 or later with the Desktop development with C++ workload
 - The Clang and LLVM tools component in Visual Studio
-- Your own extracted Xbox 360 game dump, with `DEFAULT.XEX` at the top of its folder
+- Your own extracted Xbox 360 game dump
 
 The ReXGlue 0.11.0 SDK runtime and CMake package are included. CMake and Ninja come from the Visual Studio installation.
+
+## Extracting an Xbox 360 Disc
+
+If you have an Xbox 360 disc image, [Xbox 360 ISO Extract](https://xbox-360-iso-extract.en.lo4d.com/windows) is a recommended tool for extracting its contents. Point `setup.cmd` at the folder containing the extracted `DEFAULT.XEX` and game files.
 
 ## Build
 
@@ -35,10 +39,6 @@ The current runtime stalls while playing Bink movies. The app temporarily hides 
 - `licenses`: ReXGlue and bundled dependency license files
 
 The ZIP excludes the game image, extracted content, generated C++ output, shader caches, and local build products.
-
-## Extracting an Xbox 360 Disc
-
-If you have an Xbox 360 disc image, [Xbox 360 ISO Extract](https://xbox-360-iso-extract.en.lo4d.com/windows) is a recommended tool for extracting its contents. Point `setup.cmd` at the folder containing the extracted `DEFAULT.XEX` and game files.
 
 ## Credits
 
