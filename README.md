@@ -13,13 +13,13 @@ The ReXGlue 0.11.0 SDK runtime and CMake package are included. CMake and Ninja c
 
 ## Extracting an Xbox 360 Disc
 
-If you have an Xbox 360 disc image, [Xbox 360 ISO Extract](https://xbox-360-iso-extract.en.lo4d.com/windows) is a recommended tool for extracting its contents. Point `setup.cmd` at the folder containing the extracted `DEFAULT.XEX` and game files.
+If you have an Xbox 360 disc image, [Xbox 360 ISO Extract](https://xbox-360-iso-extract.en.lo4d.com/windows) is a recommended tool for extracting its contents.
 
 ## Build
 
 1. Extract this ZIP to a short, writable folder such as `C:\Games\SpongeBobRecomp` to keep compiler paths short.
 2. Run `setup.cmd`.
-3. When prompted, enter the folder containing your extracted game files. Setup records that path for code generation and launch; it does not copy your dump. You can instead put the extracted files in the package's `extract` folder before running setup.
+3. When prompted, enter the folder containing your extracted `DEFAULT.XEX` and game files. Setup records that path for code generation and launch; it does not copy your dump. You can instead put the extracted files in the package's `extract` folder before running setup.
 4. The script generates the title C++ from your `DEFAULT.XEX` and builds the Release executable.
 5. Setup creates `SpongeBob Truth or Square.lnk` in this folder. Use it to launch the game, or run `SpongeBobTruthOrSquare\launch_game.cmd`.
 
