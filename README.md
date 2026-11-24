@@ -48,7 +48,7 @@ The first run takes a minute or two — it's translating the game's PowerPC code
 
 You'll see a bunch of compiler output. That's normal. Grab a coffee.
 
-### 4. Play!
+### 4. Run it
 When it's done, you'll see a new shortcut on your desktop (or wherever you extracted the ZIP):
 > **SpongeBob's Truth or Square RECOMPILED.lnk**
 
@@ -66,15 +66,6 @@ The ZIP **does not** include:
 - The game image or extracted files
 - Generated C++ code (created during build)
 - Shader caches or build artifacts
-
----
-
-## Extracting Your Xbox 360 Disc
-
-If you have a physical disc or ISO, you'll need to extract it first. A tool called **Xbox 360 ISO Extract** works well:
-🔗 https://xbox-360-iso-extract.en.lo4d.com/windows
-
-Point it at your ISO, extract everything, then point `setup.cmd` at the folder that contains `DEFAULT.XEX`.
 
 ---
 
